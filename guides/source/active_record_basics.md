@@ -104,10 +104,10 @@ depending on the purpose of these columns.
   `singularized_table_name_id` (e.g., `item_id`, `order_id`). These are the
   fields that Active Record will look for when you create associations between
   your models.
-* **Primary keys** - By default, Active Record will use an integer column named
-  `id` as the table's primary key. When using [Active Record
-  Migrations](active_record_migrations.html) to create your tables, this column will be
-  automatically created.
+* **Primary keys** - By default, Active Record will use a integer column named
+  `id` as the table's primary key (`bigint` for Postgres and MYSQL, `integer`
+  for SQLite). When using [Active Record Migrations](active_record_migrations.html)
+  to create your tables, this column will be automatically created.
 
 There are also some optional column names that will add additional features
 to Active Record instances:
