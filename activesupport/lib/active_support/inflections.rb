@@ -66,6 +66,17 @@ module ActiveSupport
     inflect.irregular("sex", "sexes")
     inflect.irregular("move", "moves")
     inflect.irregular("zombie", "zombies")
+    inflect.irregular("g", "g")
+    inflect.irregular("mg", "mg")
+    inflect.irregular("kg", "kg")
+    inflect.irregular("oz", "oz")
+    inflect.irregular("lb", "lb")
+    inflect.irregular("mm", "mm")
+    inflect.irregular("m", "m")
+    inflect.irregular("cm", "cm")
+    inflect.irregular("km", "km")
+    inflect.irregular("ft", "ft")
+    inflect.irregular("in", "in")
 
     inflect.uncountable(%w(equipment information rice money species series fish sheep jeans police))
   end
